@@ -15,12 +15,12 @@
 		6C27F54D24223A4600C27CC9 /* CD-Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C27F54C24223A4600C27CC9 /* CD-Extensions.swift */; };
 		6C54E942242BB6700048A4A2 /* Hire-VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C54E941242BB6700048A4A2 /* Hire-VC.swift */; };
 		6C54E945242BC7230048A4A2 /* CarNIBCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C54E944242BC7230048A4A2 /* CarNIBCell.xib */; };
+		6C54E948242BD5F70048A4A2 /* MHCoreData in Frameworks */ = {isa = PBXBuildFile; productRef = 6C54E947242BD5F70048A4A2 /* MHCoreData */; };
 		6C589401242A71ED009C70E1 /* Cars-VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C589400242A71ED009C70E1 /* Cars-VC.swift */; };
 		6C589403242A7237009C70E1 /* Customers-VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C589402242A7237009C70E1 /* Customers-VC.swift */; };
 		6CCC573D24239308009A8006 /* GlobalCDModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCC573C24239308009A8006 /* GlobalCDModel.swift */; };
 		6CCC57462423C2E8009A8006 /* pejsek.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6CCC57452423C2E8009A8006 /* pejsek.jpg */; };
 		6CCC57722424060D009A8006 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCC57712424060D009A8006 /* MainVC.swift */; };
-		6CEB14B7242A249B0083D454 /* MHCoreData in Frameworks */ = {isa = PBXBuildFile; productRef = 6CEB14B6242A249B0083D454 /* MHCoreData */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,7 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6CEB14B7242A249B0083D454 /* MHCoreData in Frameworks */,
+				6C54E948242BD5F70048A4A2 /* MHCoreData in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,7 +139,7 @@
 			);
 			name = "IZA-CoreData-1";
 			packageProductDependencies = (
-				6CEB14B6242A249B0083D454 /* MHCoreData */,
+				6C54E947242BD5F70048A4A2 /* MHCoreData */,
 			);
 			productName = "IZA-CoreData-1";
 			productReference = 6C27F5312422353C00C27CC9 /* IZA-CoreData-1.app */;
@@ -170,7 +170,7 @@
 			);
 			mainGroup = 6C27F5282422353C00C27CC9;
 			packageReferences = (
-				6CEB14B5242A249B0083D454 /* XCRemoteSwiftPackageReference "MHCoreData" */,
+				6C54E946242BD5F70048A4A2 /* XCRemoteSwiftPackageReference "MHCoreData" */,
 			);
 			productRefGroup = 6C27F5322422353C00C27CC9 /* Products */;
 			projectDirPath = "";
@@ -400,9 +400,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		6CEB14B5242A249B0083D454 /* XCRemoteSwiftPackageReference "MHCoreData" */ = {
+		6C54E946242BD5F70048A4A2 /* XCRemoteSwiftPackageReference "MHCoreData" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/mhafan/MHCoreData.git";
+			repositoryURL = "https://github.com/IZAmhfit/MHCoreData.git";
 			requirement = {
 				branch = master;
 				kind = branch;
@@ -411,9 +411,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		6CEB14B6242A249B0083D454 /* MHCoreData */ = {
+		6C54E947242BD5F70048A4A2 /* MHCoreData */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 6CEB14B5242A249B0083D454 /* XCRemoteSwiftPackageReference "MHCoreData" */;
+			package = 6C54E946242BD5F70048A4A2 /* XCRemoteSwiftPackageReference "MHCoreData" */;
 			productName = MHCoreData;
 		};
 /* End XCSwiftPackageProductDependency section */
