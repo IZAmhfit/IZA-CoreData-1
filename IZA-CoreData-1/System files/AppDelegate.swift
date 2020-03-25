@@ -9,13 +9,46 @@
 import UIKit
 import CoreData
 
+// --------------------------------------------------------------------
+// Rozhodne se podivejte do SceneDelegate.
+// Tato aplikace NEPRACUJE na StoryBoard !!!
+// Veskere UI je delano programove (programatically -- heslo pro vyhledavac)
+// Tohle demo slouzi take k predvedeni appky bez Storyboardu.
+// --------------------------------------------------------------------
+// Zkusenost: z nejakych neznamych pricin nelze dosahnout spravne
+// velikosti UIWindow.bounds z UIScreen.main.bounds POKUD aplikace
+// neobsahuje LaunchScreen.storyboard
+// Storyboarding je zlo, zlo, zlo...
+
+// --------------------------------------------------------------------
+// zkratka na referenci na AppDelegate
+func APP() -> AppDelegate {
+    //
+    return UIApplication.shared.delegate as! AppDelegate
+}
+
+// zkratka na hlavni aplikacni MOC
+func MOC() -> NSManagedObjectContext {
+    //
+    return APP().persistentContainer.viewContext
+}
+
+// --------------------------------------------------------------------
+//
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
-
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+    //
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool
+    {
+        // tohle by se melo udelat, aby fungoval propis
+        // z vedlejsiho MOC do hlavniho
+        let _moc = persistentContainer.viewContext
+        
+        //
+        _moc.automaticallyMergesChangesFromParent = true
+        
+        //
         return true
     }
 
@@ -77,6 +110,5 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             }
         }
     }
-
 }
 

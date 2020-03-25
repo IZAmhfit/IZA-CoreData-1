@@ -3,29 +3,42 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		6C27F5352422353D00C27CC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C27F5342422353D00C27CC9 /* AppDelegate.swift */; };
 		6C27F5372422353D00C27CC9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C27F5362422353D00C27CC9 /* SceneDelegate.swift */; };
-		6C27F5392422353D00C27CC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C27F5382422353D00C27CC9 /* ViewController.swift */; };
-		6C27F53C2422353D00C27CC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C27F53A2422353D00C27CC9 /* Main.storyboard */; };
 		6C27F53F2422353D00C27CC9 /* IZA_CoreData_1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6C27F53D2422353D00C27CC9 /* IZA_CoreData_1.xcdatamodeld */; };
 		6C27F5412422354000C27CC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C27F5402422354000C27CC9 /* Assets.xcassets */; };
 		6C27F5442422354000C27CC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C27F5422422354000C27CC9 /* LaunchScreen.storyboard */; };
+		6C27F54D24223A4600C27CC9 /* CD-Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C27F54C24223A4600C27CC9 /* CD-Extensions.swift */; };
+		6C54E942242BB6700048A4A2 /* Hire-VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C54E941242BB6700048A4A2 /* Hire-VC.swift */; };
+		6C54E945242BC7230048A4A2 /* CarNIBCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C54E944242BC7230048A4A2 /* CarNIBCell.xib */; };
+		6C589401242A71ED009C70E1 /* Cars-VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C589400242A71ED009C70E1 /* Cars-VC.swift */; };
+		6C589403242A7237009C70E1 /* Customers-VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C589402242A7237009C70E1 /* Customers-VC.swift */; };
+		6CCC573D24239308009A8006 /* GlobalCDModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCC573C24239308009A8006 /* GlobalCDModel.swift */; };
+		6CCC57462423C2E8009A8006 /* pejsek.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6CCC57452423C2E8009A8006 /* pejsek.jpg */; };
+		6CCC57722424060D009A8006 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCC57712424060D009A8006 /* MainVC.swift */; };
+		6CEB14B7242A249B0083D454 /* MHCoreData in Frameworks */ = {isa = PBXBuildFile; productRef = 6CEB14B6242A249B0083D454 /* MHCoreData */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6C27F5312422353C00C27CC9 /* IZA-CoreData-1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IZA-CoreData-1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C27F5342422353D00C27CC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6C27F5362422353D00C27CC9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6C27F5382422353D00C27CC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6C27F53B2422353D00C27CC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6C27F53E2422353D00C27CC9 /* IZA_CoreData_1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IZA_CoreData_1.xcdatamodel; sourceTree = "<group>"; };
 		6C27F5402422354000C27CC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6C27F5432422354000C27CC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6C27F5452422354000C27CC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C27F54C24223A4600C27CC9 /* CD-Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CD-Extensions.swift"; sourceTree = "<group>"; };
+		6C54E941242BB6700048A4A2 /* Hire-VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Hire-VC.swift"; sourceTree = "<group>"; };
+		6C54E944242BC7230048A4A2 /* CarNIBCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarNIBCell.xib; sourceTree = "<group>"; };
+		6C589400242A71ED009C70E1 /* Cars-VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cars-VC.swift"; sourceTree = "<group>"; };
+		6C589402242A7237009C70E1 /* Customers-VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Customers-VC.swift"; sourceTree = "<group>"; };
+		6CCC573C24239308009A8006 /* GlobalCDModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalCDModel.swift; sourceTree = "<group>"; };
+		6CCC57452423C2E8009A8006 /* pejsek.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pejsek.jpg; sourceTree = "<group>"; };
+		6CCC57712424060D009A8006 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CEB14B7242A249B0083D454 /* MHCoreData in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,16 +72,54 @@
 		6C27F5332422353C00C27CC9 /* IZA-CoreData-1 */ = {
 			isa = PBXGroup;
 			children = (
-				6C27F5342422353D00C27CC9 /* AppDelegate.swift */,
-				6C27F5362422353D00C27CC9 /* SceneDelegate.swift */,
-				6C27F5382422353D00C27CC9 /* ViewController.swift */,
-				6C27F53A2422353D00C27CC9 /* Main.storyboard */,
-				6C27F5402422354000C27CC9 /* Assets.xcassets */,
-				6C27F5422422354000C27CC9 /* LaunchScreen.storyboard */,
-				6C27F5452422354000C27CC9 /* Info.plist */,
+				6C54E943242BC7100048A4A2 /* NIBs */,
+				6CCC57452423C2E8009A8006 /* pejsek.jpg */,
+				6C8D0EC224253BB500D60CF1 /* System files */,
+				6C8D0EBD242511D900D60CF1 /* Tabulky, pohledy, UI */,
+				6C27F54B24223A2300C27CC9 /* Model-CD-classes */,
 				6C27F53D2422353D00C27CC9 /* IZA_CoreData_1.xcdatamodeld */,
+				6C27F5452422354000C27CC9 /* Info.plist */,
 			);
 			path = "IZA-CoreData-1";
+			sourceTree = "<group>";
+		};
+		6C27F54B24223A2300C27CC9 /* Model-CD-classes */ = {
+			isa = PBXGroup;
+			children = (
+				6C27F54C24223A4600C27CC9 /* CD-Extensions.swift */,
+				6CCC573C24239308009A8006 /* GlobalCDModel.swift */,
+			);
+			path = "Model-CD-classes";
+			sourceTree = "<group>";
+		};
+		6C54E943242BC7100048A4A2 /* NIBs */ = {
+			isa = PBXGroup;
+			children = (
+				6C54E944242BC7230048A4A2 /* CarNIBCell.xib */,
+			);
+			path = NIBs;
+			sourceTree = "<group>";
+		};
+		6C8D0EBD242511D900D60CF1 /* Tabulky, pohledy, UI */ = {
+			isa = PBXGroup;
+			children = (
+				6CCC57712424060D009A8006 /* MainVC.swift */,
+				6C589400242A71ED009C70E1 /* Cars-VC.swift */,
+				6C589402242A7237009C70E1 /* Customers-VC.swift */,
+				6C54E941242BB6700048A4A2 /* Hire-VC.swift */,
+			);
+			path = "Tabulky, pohledy, UI";
+			sourceTree = "<group>";
+		};
+		6C8D0EC224253BB500D60CF1 /* System files */ = {
+			isa = PBXGroup;
+			children = (
+				6C27F5342422353D00C27CC9 /* AppDelegate.swift */,
+				6C27F5362422353D00C27CC9 /* SceneDelegate.swift */,
+				6C27F5402422354000C27CC9 /* Assets.xcassets */,
+				6C27F5422422354000C27CC9 /* LaunchScreen.storyboard */,
+			);
+			path = "System files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,6 +138,9 @@
 			dependencies = (
 			);
 			name = "IZA-CoreData-1";
+			packageProductDependencies = (
+				6CEB14B6242A249B0083D454 /* MHCoreData */,
+			);
 			productName = "IZA-CoreData-1";
 			productReference = 6C27F5312422353C00C27CC9 /* IZA-CoreData-1.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +169,9 @@
 				Base,
 			);
 			mainGroup = 6C27F5282422353C00C27CC9;
+			packageReferences = (
+				6CEB14B5242A249B0083D454 /* XCRemoteSwiftPackageReference "MHCoreData" */,
+			);
 			productRefGroup = 6C27F5322422353C00C27CC9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -129,8 +187,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C27F5442422354000C27CC9 /* LaunchScreen.storyboard in Resources */,
+				6CCC57462423C2E8009A8006 /* pejsek.jpg in Resources */,
+				6C54E945242BC7230048A4A2 /* CarNIBCell.xib in Resources */,
 				6C27F5412422354000C27CC9 /* Assets.xcassets in Resources */,
-				6C27F53C2422353D00C27CC9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,24 +200,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C27F5392422353D00C27CC9 /* ViewController.swift in Sources */,
+				6C589403242A7237009C70E1 /* Customers-VC.swift in Sources */,
+				6C54E942242BB6700048A4A2 /* Hire-VC.swift in Sources */,
+				6C589401242A71ED009C70E1 /* Cars-VC.swift in Sources */,
+				6C27F54D24223A4600C27CC9 /* CD-Extensions.swift in Sources */,
+				6CCC57722424060D009A8006 /* MainVC.swift in Sources */,
 				6C27F53F2422353D00C27CC9 /* IZA_CoreData_1.xcdatamodeld in Sources */,
 				6C27F5352422353D00C27CC9 /* AppDelegate.swift in Sources */,
 				6C27F5372422353D00C27CC9 /* SceneDelegate.swift in Sources */,
+				6CCC573D24239308009A8006 /* GlobalCDModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		6C27F53A2422353D00C27CC9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6C27F53B2422353D00C27CC9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		6C27F5422422354000C27CC9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -342,6 +398,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6CEB14B5242A249B0083D454 /* XCRemoteSwiftPackageReference "MHCoreData" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mhafan/MHCoreData.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6CEB14B6242A249B0083D454 /* MHCoreData */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6CEB14B5242A249B0083D454 /* XCRemoteSwiftPackageReference "MHCoreData" */;
+			productName = MHCoreData;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		6C27F53D2422353D00C27CC9 /* IZA_CoreData_1.xcdatamodeld */ = {

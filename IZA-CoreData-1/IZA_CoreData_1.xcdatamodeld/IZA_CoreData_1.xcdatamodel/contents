@@ -1,4 +1,34 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="false" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15702" systemVersion="19D76" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Car" representedClassName="Car" parentEntity="Identification" syncable="YES" codeGenerationType="class">
+        <attribute name="brand" optional="YES" attributeType="String"/>
+        <attribute name="kms" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="numberplate" optional="YES" attributeType="String"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+        <relationship name="currentHire" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Hire" inverseName="currentlyHired" inverseEntity="Hire"/>
+        <relationship name="hires" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Hire" inverseName="car" inverseEntity="Hire"/>
+    </entity>
+    <entity name="Customer" representedClassName="Customer" parentEntity="Identification" syncable="YES" codeGenerationType="class">
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="hires" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Hire" inverseName="customer" inverseEntity="Hire"/>
+    </entity>
+    <entity name="Hire" representedClassName="Hire" syncable="YES" codeGenerationType="class">
+        <attribute name="dateEnding" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="dateStarting" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="kmsEnding" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="kmsStarting" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="car" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Car" inverseName="hires" inverseEntity="Car"/>
+        <relationship name="currentlyHired" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Car" inverseName="currentHire" inverseEntity="Car"/>
+        <relationship name="customer" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Customer" inverseName="hires" inverseEntity="Customer"/>
+    </entity>
+    <entity name="Identification" representedClassName="Identification" isAbstract="YES" syncable="YES" codeGenerationType="class">
+        <attribute name="dateCreated" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="idCode" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Car" positionX="-63" positionY="-18" width="128" height="133"/>
+        <element name="Customer" positionX="-54" positionY="-9" width="128" height="73"/>
+        <element name="Hire" positionX="-36" positionY="9" width="128" height="148"/>
+        <element name="Identification" positionX="-18" positionY="36" width="128" height="73"/>
+    </elements>
 </model>
